@@ -20,7 +20,7 @@
 :root {
   --primary: #ead7ac;
   --light-primary: #ae9f7c;
-  --secondary: #ACBFEA;
+  --secondary: #acbfea;
   --light-secondary: #fe8d59;
   --red: #fe8d59;
   --black: #323334;
@@ -29,26 +29,10 @@
   --gray: #616060;
   --light-gray: #ccc;
   --lighter-gray: #f6f6f6;
-  --font-sans-serif:
-    system-ui,
-    -apple-system,
-    segoe ui,
-    roboto,
-    ubuntu,
-    helvetica,
-    cantarell,
-    noto sans,
-    sans-serif;
-  --font-monospace:
-    menlo,
-    monaco,
-    lucida console,
-    liberation mono,
-    dejavu sans mono,
-    bitstream vera sans mono,
-    courier new,
-    monospace,
-    serif;
+  --font-sans-serif: system-ui, -apple-system, segoe ui, roboto, ubuntu, helvetica, cantarell,
+    noto sans, sans-serif;
+  --font-monospace: menlo, monaco, lucida console, liberation mono, dejavu sans mono,
+    bitstream vera sans mono, courier new, monospace, serif;
   --boder-radius: 0.2rem;
 }
 
@@ -84,8 +68,7 @@ body {
 }
 
 .bodyAnimate {
-  background-image:
-    linear-gradient(-45deg, #ee7752, #90b6a5, #ead7ac, #acbfea);
+  background-image: linear-gradient(-45deg, #ee7752, #90b6a5, #ead7ac, #acbfea);
   background-attachment: fixed;
   background-size: 500% 500%;
   animation: gradient 15s ease infinite;
@@ -152,7 +135,7 @@ p {
   margin-bottom: 1.563rem;
 }
 
-p>*:last-child {
+p > *:last-child {
   margin-bottom: 0;
 }
 
@@ -168,7 +151,6 @@ a {
 }
 
 nav {
-  text-align: center;
   margin: auto;
 }
 
@@ -302,7 +284,7 @@ footer {
 
 .btn:hover {
   background-color: #ae9f7c;
-  box-shadow: 0px 0px 0px #ACBFEA;
+  box-shadow: 0px 0px 0px #acbfea;
   transform: translateY(-7px);
 }
 
@@ -330,7 +312,6 @@ button {
 }
 
 @media (hover: hover) {
-
   input[type="reset"]:hover,
   input[type="submit"]:hover,
   input[type="button"]:hover,
@@ -426,13 +407,7 @@ li {
 kbd {
   display: inline-block;
   padding: 0 0.328rem;
-  font-family:
-    "SFMono-Regular",
-    Consolas,
-    "Liberation Mono",
-    Menlo,
-    Courier,
-    monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.64rem;
   color: var(--dark-gray);
   vertical-align: middle;
