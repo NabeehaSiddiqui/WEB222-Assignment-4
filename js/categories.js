@@ -11,8 +11,6 @@
 window.categories = [
   { id: "cat-1", name: "Pop" },
   { id: "cat-2", name: "Indie" },
-  { id: "cat-3", name: "Alternative" }
-  /*
-    { id: "c1", name: "Category 1" },
-   */
+  { id: "cat-3", name: "Alternative" },
+  { id: "cat-4", name: "R&B" }
 ];
