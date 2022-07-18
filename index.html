@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Change this to your name-->
+    <meta name="author" content="Nabeeha Siddiqui" />
 
-<head>
-  <meta charset="utf-8" />
-  <!-- Change this to your name-->
-  <meta name="author" content="Nabeeha Siddiqui" />
+    <title>WEB222 Store</title>
+    <!-- Classless CSS Stylesheet - (used my own choice of classless css) link: https://github.com/ruanmartinelli/axist -->
+    <link rel="stylesheet" href="css/axist.css" type="text/css" />
+  </head>
 
-  <title>WEB222 Store</title>
-  <!-- Classless CSS Stylesheet - (used my own choice of classless css) link: https://github.com/ruanmartinelli/axist -->
-  <link rel="stylesheet" href="css/axist.css" type="text/css" />
-</head>
+  <body class="bodyAnimate">
+    <header class="header">
+      <!-- Change this to your Store's info -->
+      <img
+        src="./images/logo-transparent-svg-cropped.svg"
+        width="199"
+        height="150"
+        alt="Store Logo"
+      />
+      <h1 style="line-height: 1; margin-top: 0%; margin-bottom: 2px">Resonance</h1>
+      <p style="line-height: 0; margin-bottom: 0px">Quality CD's & Vinyls</p>
+      <h6 style="line-height: 0; margin-bottom: 0px"><em>Est. 2022</em></h6>
+    </header>
+    <hr />
+    <p style="margin-bottom: 0.2px">Select the genre you're looking for!</p>
+    <nav id="menu">
+      <!-- Dynamically create your menu category buttons here -->
+    </nav>
 
-<body class="bodyAnimate">
-  <header class="header">
-    <!-- Change this to your Store's info -->
-    <img src="./images/logo-transparent-svg-cropped.svg" width="199" height="150" alt="Store Logo">
-    <h1 style="line-height:1; margin-top: 0%; margin-bottom: 2px;">Resonance</h1>
-    <p style="line-height:0; margin-bottom: 0px;">Quality CD's & Vinyls </p>
-    <h6 style="line-height:0; margin-bottom: 0px;"><em>Est. 2022</em></h6>
-  </header>
-  <hr>
-  <p style="margin-bottom:0.2px; text-align:center;">Select the genre you're looking for!</p>
-  <nav id="menu">
-    <!-- Dynamically create your menu category buttons here -->
-  </nav>
+    <hr />
 
-  <hr />
+    <main>
+      <h2 id="selected-category">
+        <!-- Dynamically update the selected category title -->
+      </h2>
 
-  <main>
-    <h2 id="selected-category">
-      <!-- Dynamically update the selected category title -->
-    </h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Album Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="category-products">
+          <!-- Dynamically create your product rows here -->
+        </tbody>
+      </table>
+    </main>
+    <footer>Made by Nabeeha Siddiqui - WEB222 Assignment 4</footer>
+    <!-- JavaScript Data Files -->
+    <script src="./js/categories.js"></script>
+    <script src="./js/products.js"></script>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Album Name</th>
-          <th>Description</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody id="category-products">
-        <!-- Dynamically create your product rows here -->
-      </tbody>
-    </table>
-  </main>
-  <footer> Made by Nabeeha Siddiqui - WEB222 Assignment 4</footer>
-  <!-- JavaScript Data Files -->
-  <script src="./js/categories.js"></script>
-  <script src="./js/products.js"></script>
-
-  <!-- Main App JavaScript File -->
-  <script src="./js/app.js"></script>
-</body>
-
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
 </html>
