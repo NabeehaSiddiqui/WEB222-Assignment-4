@@ -196,5 +196,45 @@ window.products = [
     price: "15.68",
     discontinued: false,
     categories: ["cat-1"]
+  },
+  {
+    id: "RS44",
+    title: "Ctrl",
+    description: "Artist: SZA, Release: 2017, Available in: CD",
+    price: "21.68",
+    discontinued: false,
+    categories: ["cat-4"]
+  },
+  {
+    id: "RS45",
+    title: "After Hours",
+    description: "Artist: The Weeknd, Release: March 20 2020, Available in: Vinyl",
+    price: "45.68",
+    discontinued: false,
+    categories: ["cat-4"]
+  },
+  {
+    id: "RS46",
+    title: "Dawn FM",
+    description: "Artist: The Weeknd, Release: Feb Jan 7 2022, Available in: Vinyl",
+    price: "50.00",
+    discontinued: false,
+    categories: ["cat-4"]
+  },
+  {
+    id: "RS47",
+    title: "Starboy",
+    description: "Artist: The Weeknd, Release: Nov 25 2016, Available in: Vinyl",
+    price: "49.99",
+    discontinued: false,
+    categories: ["cat-4"]
+  },
+  {
+    id: "RS48",
+    title: "PARTYNEXTDOOR (EP)",
+    description: "Artist: PARTYNEXTDOOR, Release: Jul 1 2013, Available in: CD",
+    price: "20.00",
+    discontinued: false,
+    categories: ["cat-4"]
   }
 ];
