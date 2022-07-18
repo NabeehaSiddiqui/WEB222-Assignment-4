@@ -35,11 +35,18 @@ window.onload = function () {
       display(categories[index]);
     });
   });
+
+  const tableRows = document.querySelectorAll("tr");
+  tableRows.forEach((node) => {
+    node.addEventListener("click", function () {
+      console.log(this);
+    });
+  });
 };
 function display(catObj) {
   var tableHeading = document.getElementById("selected-category");
   var heading = document.createTextNode("Genre: " + catObj.name);
-  tableHeading.setAttribute('class','heading');
+  tableHeading.setAttribute("class", "heading");
   tableHeading.innerHTML = "";
   tableHeading.appendChild(heading);
   var tableBody = document.getElementById("category-products");
